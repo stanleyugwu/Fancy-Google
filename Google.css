@@ -1,0 +1,37 @@
+#form{margin-top:12%;display:inline}
+	.textbox{margin:7% 0 0 -1.6%;border-left:0.1em solid darkblue;border-top:0.1em solid red;border-bottom:0.1em solid green;border-right:none;width:82%;font-size:1.1em;height:2em;padding:2%;color:darkblue;box-shadow:0px 0px 20px 7px lightskyblue}
+			#container{text-align:center;margin-top:20%}
+			span{font-size:4.5em;font-family:serif}
+		#sbtn{background:rgb(0,100,255);color:white;font-size:1.1em;border-left:none;border-right:0.1em solid black;border-top:0.1em solid black;border-right:0.1em solid black;font-weight:500;height:2.8em;padding:2%;margin-left:-0.5%;border-bottom:0.1em solid black;border-top-right-radius:1.3em;border-bottom-right-radius:1.3em;width:15%;box-shadow:0px 0px 20px 7px lightskyblue }	.g1{color:rgb(0,100,255);animation:'cha' 65s}
+.o1{color:rgb(225,0,0);animation:'cha' 30s}
+.o2{color:rgb(255,180,0);animation:'cha' 45s}
+.g2{color:rgb(0,100,225);animation:'cha' 20s}
+.l{color:rgb(10,120,0);animation:'cha' 35s}
+.e{color:rgb(225,0,0);animation:'cha' 55s}
+@keyframes cha{
+0%{color:blue}
+10%{color:purple}
+20%{color:red}
+30%{color:white}
+40%{color:orange}
+60%{color:white}
+70%{color:deepskyblue}
+80%{color:green}
+100%{color:yellow}
+
+}
+#greetbox{display:;border:none;background:white;width:55%;font-size:1.5em;color:darkblue;padding:0.5%;text-align:center;letter-spacing:1%;overflow:scroll;margin-top:-13%;box-shadow:0px 0px 15px 9px lightskyblue;animation-name:'ch';animation-duration:20s;}
+@keyframes ch{
+	0%{background:purple;color:white}
+20%{background:hotpink;color:darkblue;transform:scale(2) rotate(360deg);box-shadow:0px 0px 20px 15px yellow}
+40%{background:mediumblue;color:red}
+50%{box-shadow:0px 0px 17px 10px hotpink}
+60%{background:orange;color:white;box-shadow:0px 0px 22px 25px purple}
+70%{background:violet;color:red}
+80%{background:yellow;color:red}
+90%{background:blue}
+100%{background:white;}
+}
+#load{display:none;margin-top:8%;width:50%}
+#svg{margin-top:20%}
+body{background:rgb(225,225,225);}

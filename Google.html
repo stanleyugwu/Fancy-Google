@@ -1,0 +1,23 @@
+<!Doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		 <meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="http://ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="Google.css">
+		<script src="Google.js"></script>
+		<title>Google Search Bar</title>
+	</head>
+	<body onload="greet()">
+		<div id='container'>
+			<input id="greetbox" type="text" disabled>
+			<div id='textcont'>
+				<span class='g1'>G</span><span class='o1'>o</span><span class='o2'>o</span><span class='g2'>g</span><span class='l'>l</span><span class='e'>e</span>
+			</div>
+			<form id='form'  method='GET' onsubmit="search()">
+				<input type='text' name=q placeholder='Search or type URL...' class='textbox' required autocomplete="true"><input type="submit" value="GO" id='sbtn'>
+					<progress id="load" max="100" min="0">
+		</form>
+		</div>
+	</html>
+	</body>
