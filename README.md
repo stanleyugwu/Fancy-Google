@@ -1,2 +1,3 @@
 # Fancy-Google
-Fancier Google Search Page
+Adding Little Beauty To Google Search Page
+##Nobadintents##
